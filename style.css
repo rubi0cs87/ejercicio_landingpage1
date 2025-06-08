@@ -1,0 +1,76 @@
+/* Las partes comentadas es porque no me acabó de quedar claro con el enunciado,
+si la parte del contenido principal tenía que ir fija o no y también porque en la imagen
+el .features me da la sensación de que empieza desde abajo de donde queda la barra lateral
+aunque no le veo mucho sentido*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #000000;
+    color: #9ad79b;
+}
+
+header {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    border: 1px dashed;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+/* En caso de que main tenga que ir fija, descomentaría las 4 primeras líneas de main y comentaría la línea 37 */
+main { 
+/*     position: fixed; 
+    width: 100%;
+    top: 120px;
+    background-color: black; */
+    margin-top: 120px;
+    border: 1px dashed;
+    padding: 20px;
+    }
+
+aside {
+    border: 1px dashed;
+    list-style-type: circle;
+    padding: 20px;
+    right:0%;
+    position: fixed;
+    margin-top: 40px;
+    background-color: black;
+}
+
+.features {
+    margin-top: 230px;
+    padding: 20px;
+    border: 1px dashed;
+    text-align: center;
+    margin-bottom: 42px;
+}
+
+footer {
+    width:100%;
+    border: 1px dashed;
+    text-align: center;
+    position:fixed;
+    bottom: 0;
+    padding: 20px;
+    background-color: black;
+}
+
+button {
+    font-weight: bold;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 3px;
+}
